@@ -1,1 +1,47 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
+body {
+  background-image: linear-gradient(
+    109.6deg,
+    rgba(102, 203, 149, 1) 11.2%,
+    rgba(39, 210, 175, 1) 98.7%
+  );
+  font-family: "Indie Flower", cursive;
+}
+
+h1 {
+  color: rebeccapurple;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
+  margin: 1rem;
+  color: brown;
+}
+
+hr {
+  width: 70%;
+  margin-top: 1rem;
+}
+
+nav {
+  padding: 1rem;
+  border-bottom: 1px solid black;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  color: brown;
+  font-family: "Indie Flower";
+  cursor: pointer;
+}
+
+img {
+  text-align: center;
+  margin: 0 auto;
+}
